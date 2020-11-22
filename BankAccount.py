@@ -25,3 +25,13 @@ class BankAccount():
         self.balance += interest
         return f"Interest has been added, your updated balance is ${self.balance}"
 
+ def get_balance(self):
+        print(f"Your balance is {self.balance}")    
+
+ def reciept(self, full_name, account_number, routing_number, balance):
+        print("****************")
+        print(f"Name: {self.full_name}")
+        print(f"Account No.: {self.account_number}")
+        print(f"Routing No.: {self.routing_number}")
+        print(f"Balance: {self.balance}")
+        print("****************")   
