@@ -28,10 +28,20 @@ class BankAccount():
  def get_balance(self):
         print(f"Your balance is {self.balance}")    
 
- def reciept(self, full_name, account_number, routing_number, balance):
+ def receipt(self, full_name, account_number, routing_number, balance):
         print("****************")
         print(f"Name: {self.full_name}")
         print(f"Account No.: {self.account_number}")
         print(f"Routing No.: {self.routing_number}")
         print(f"Balance: {self.balance}")
-        print("****************")   
+        print("****************")
+
+ def AccountNum():
+        number = random.randint(10000000, 99999999)
+        return number
+
+routing = 123456789
+
+person = BankAccount("Holly Wood", AccountNum(), routing, balance)
+
+print(person.get_balance)          
