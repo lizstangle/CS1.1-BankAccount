@@ -19,3 +19,9 @@ class BankAccount():
         else:
             self.balance -= 10
             return f"Insufficient funds. You have incurred an overdraft fee of $10. Your balance is {self.balance}."
+    
+    def add_interest(self)
+        interest = self.balance * .00083
+        self.balance += interest
+        return f"Interest has been added, your updated balance is ${self.balance}"
+
