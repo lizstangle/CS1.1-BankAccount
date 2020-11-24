@@ -1,0 +1,1 @@
+Bank account simulation using class, attributes and methods to create receipts and provide the user with usual information such as updated balance, withdraw amount, deposits, and interest.
